@@ -1,0 +1,14 @@
+begin
+i:=0
+z:=0
+while(i+2<10+2) do
+while(z<20) do
+print(z)
+z:=z+2
+println
+endwhile
+i:=i+1
+print(i)
+println
+endwhile
+end

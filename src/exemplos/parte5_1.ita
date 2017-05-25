@@ -1,0 +1,13 @@
+begin
+print('Entre com b: ')
+readInt(b)
+for (i:=10; i>0; i:=i-1)
+  r := b * i
+  print(b)
+  print(' x ')
+  print(i)
+  print(' = ')
+  print(r)
+  println
+endfor
+end

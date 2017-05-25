@@ -1,0 +1,19 @@
+begin
+print('Entre com o numero de linhas: ')
+readint(n)
+a := 1
+while (a <= n) do
+i := 1
+while (i <= n - a) do
+print(' ')
+i := i + 1
+endwhile
+i := 1
+while (i <= 2 * a - 1) do
+print('*')
+i := i+1
+endwhile
+println
+a := a + 1
+endwhile
+end

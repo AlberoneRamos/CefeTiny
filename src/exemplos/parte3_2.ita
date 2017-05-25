@@ -1,0 +1,20 @@
+begin
+print('Entre com o valor de a: ')
+readint(a)
+print('Entre com o valor de b: ')
+readint(b)
+if (a > 0) then
+   print('a maior que zero')
+   println
+else
+   print('Entrei no primeiro else')
+   println
+   if (b > 0) then 
+      print('b maior que zero')
+      println
+   endif
+   print('ultima linha do else')
+endif
+println
+print('fim')
+end

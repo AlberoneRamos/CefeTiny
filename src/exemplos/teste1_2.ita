@@ -1,0 +1,12 @@
+begin
+for (a:=1; a<=4; a:=a+1)
+ print('a igual a ')
+ print(a)
+ println
+ for (b:=1; b<5; b:=b+1)
+  print('b igual a ')
+  print(b)
+  println
+ endfor
+endfor
+end
